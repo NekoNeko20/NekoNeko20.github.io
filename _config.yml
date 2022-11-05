@@ -26,16 +26,16 @@ heroimage: https://images7.alphacoders.com/928/928728.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: yihancao1999@gmail.com
-facebook_username: /
-twitter_username: /
+facebook_username:
+twitter_username:
 instagram_username: yihancao123
 linkedin_username: yihancao1999
 github_username:  YihanCao123
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+youtube_channel_id:
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
 
 # Google Analytics
 google-analytics: UA-163806439-1
