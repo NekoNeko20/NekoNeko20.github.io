@@ -28,9 +28,9 @@ heroimage: https://images7.alphacoders.com/928/928728.jpg
 email: yihancao1999@gmail.com
 facebook_username:
 twitter_username:
-instagram_username: yihancao123
+instagram_username:
 linkedin_username: yihancao1999
-github_username:  YihanCao123
+github_username: YihanCao123
 youtube_channel_id:
 reddit_username:
 behance_username:
@@ -38,7 +38,7 @@ dribbble_username:
 spotify_username:
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: G-D889ZCC2KB
 
 # Disqus
 disqus-shortname: Yihan
