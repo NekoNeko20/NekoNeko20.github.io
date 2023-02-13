@@ -1,72 +1,47 @@
 ---
-title: How to Install and use WhatATheme?
+title: CMU MISM 2023毕业感想
 layout: post
 post-image: https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/How%20to%20install%20and%20use%20WhatATheme.png?token=AHMQUEPHRKQFL5FS624RDJ26Z64HK
-description: This post will guide you to install WhatATheme on your Jekyll site, follow
-  the easy steps to set up WhatATheme.
+description: 我个人对MISM这个program的一些体验。省流：有更好的去更好的，没有的话，这个也凑合吧。
 tags:
 - how to
 - setup
 - theme
 ---
 
-# What is WhatATheme?
->You’ll find this post in your ***_posts*** directory. Go ahead and edit it and re-build the site to see your changes. >You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+来匹兹堡一年了，今年也是找工非常困难的一年。我属于是“非大厂不去”的想法，所以即便拿到了一些小公司的offer也拒掉了，
+现在因为个人志向跟未来发展的影响，打算放弃手上MLE的offer去读phd。这篇博客的主要目的就是为了客观拷打MISM这个项目，
+并总结一下我这几个学期学的一些课程，踩的一些坑。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VfPa2c9kwhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 申请与录取
+之前在[某地](https://www.1point3acres.com/bbs/thread-887736-1-1.html)上看到过有同学说，只建议集中同学来
+MISM：
+> * 有CS基础、目标SDE找工
+> * 目标DS/MLE
+> * 目标PM
+总的来说我跟这位楼主的感受是差不太多的。因为我的背景非常偏ML，我本科也是统计的，根据我在CMU的观察，建议统计的同学想来CMU读AI方向的硕士的话，尽量按照这个优先级申请：LTI > ML > CS > ECE > INI >>>> MISM。就算背景匹配不上，最好也当作彩票申请一下（我就属于是蠢了，ECE MISM选了MISM）。当然，如果其他没有录取到，来了MISM，也是有机会回到AI的路子上去的，下文将详细讲怎么曲线救国。
 
----
+另外，有点不同的是，我也不太建议**有CS背景**，目标SDE的同学来MISM这个项目，原因如下：
+> * bar跟其他学校的CS差不多，就业也差不多
+> * 专业课程量大，大多对你找工没帮助，如果是MLE的话，那就是完全没帮助
+> * 教学质量堪忧，作业堪忧，举个例子，比如某个task应该让你感受到“动态规划的魅力”，然而老师的作业大概是让你感受到“动态规划不过如此，也没看出来比xxx好嘛”，自己都抓不住重点。
+> * career service P用没有，给你推的你都看不上的，今年的情况吧，career fair也就图一乐
+总结一下，有更好的offer就不要来，CMU的title没用的，人太多了，招人公司也不care你什么学校的。
 
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio which includes
+那么缺点说完了，这个项目也不至于如此不堪，还是有优点的。主要优点就是选课灵活，我最后全给自己选了11打头的课（终于活成了LTI的样子！），也没有什么限制，把核心课上完就行，这是一个很好的点，因为CMU其他的课真的不错，如果有时间handle好专业课，上一些CMU的神课、去OH跟LTI之类的Prof吹吹水都是很长见识的。如果对核心课不感兴趣，大家可以基于chatGPT上课。另外虽然有些老师们教学水平不太行，但都还挺照顾学生的，氛围不错。
 
-### Home Page -
-* A Hero section - A section where you can outsource an image which will work as the background for the particular section; it also will include your name and a tagline which can be easily manipulated via the _config.yml file.
-* An About section - A section where you can include your image and a 60 word paragraph which again you can easily manipulate using the _config.yml file.
-* A Contact section - A section where you can include 3 direct ways to contact<br>
-`Ping on Messenger`<br>
-`Send an Email`<br>
-`Tweet on Twitter`<br>
-The contact section will also include 10 different social media buttons for your audience to follow.<br>
-`Facebook`, `Twitter`, `Instagram`, `LinkedIn`, `GitHub`, `YouTube`, `Reddit`, `Behance`, `Dribbble` & `Spotify`.
+## 选课上课
 
-### Blog -
-The blog includes a horizontal card list where the latest articles are fetched from the _posts folder automatically in top-down format. It also includes an instant search box which matches your query from the title, description & content of your post and shows the result as soon as you type.<br>
-The blog card includes
-* Post Title
-* 300 words from the content of the post
-* The publish date
-* The time which will be required to read the post.
+### 专业课
+我属于全部水过（甚至有的还差点没过），理论上我现在申请PhD应该很后悔当年没好好上课，但是这些专业水课水到了我觉得我多花一分钟都是对research的不尊重，如果再来一遍我还是会选择全部水过去。
+当然下决心找工的话更不用担心gpa，开摆就完事儿了。
+- 95-760 没用的excel课，直接水
+- 95-722 更没用了
+- 95-719 头回听说SDE必修里有经济管理，水
+- 95-712 不如自学，我就问人家cs学院webapp都用django了，heinz这个课居然还在javafx，我笑死
 
-### Projects -
-The Projects page will include all the projects from the **`projects.yml`** file which is present in the _data folder.<br>
-Projects will be showcased in a card-list format where each card will contain
-* An image related to the project
-* A Project Title
-* A Project Description of about 80 words
+接下来我要给95-702这个吊课开专场，这个课直接让我怀疑人生。
 
-### Footer -
-The footer includes
-* A small about the author widget which show the same `Author Image` as mentioned in the about section of the Home page which includes `Name of the Author`, `Around 75 words about the author`.
-* A more link widget which includes a link to any extra page that you've created and a `Subscribe via RSS` link.
-* A Recent posts widget which will include latest 3 posts.
+## 找工
 
-#### Extra Features -
-WhatATheme comes pre installed with
-* **HTML Compressor** - It'll compress all the pages by removing any extra space or blank lines.
-* **Google Analytics** - A web analytics service offered by Google that tracks and reports website traffic. For more information [click here](https://analytics.google.com){:target="blank"}.
-* **Disqus** - A worldwide blog comment hosting service for web sites and online communities that use a networked platform. For more information about Disqus [click here](https://help.disqus.com/en/articles/1717053-what-is-disqus){:target="blank"}
-
-	##### For more information about WhatATheme [click here](https://github.com/thedevslot/WhatATheme/blob/gh-pages/README.md){:target="blank"}.
-
----
-
-# Installation
-### Step 1 - Setting up WhatATheme
-> * Fork the [repository](https://github.com/thedevslot/WhatATheme/tree/master){:target="blankl"}
-> * Go to repository settings and set Github Pages source as master.
-> * Your new site should be ready at [https://username.github.io/WhatATheme/](#){:target="blank"}
-
-### Step 2 - Making changes via **_config.yml**
-> * Open _config.yml file
-> * Fill the available details accordingly
-> * Commit the changes
+## Research
